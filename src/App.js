@@ -3,7 +3,7 @@ import { GlobalStyle } from "./global-styles";
 import "./App.css";
 import About from "./pages/about/about";
 import Buddy from "./pages/Buddy/Buddy";
-import Home from "./pages/main/Main";
+import Home from "./pages/main/main";
 
 function App() {
   return (
