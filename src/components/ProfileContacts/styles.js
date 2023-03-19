@@ -50,10 +50,12 @@ export const ProfileContactsHeader = styled.h1`
   line-height: 24px;
   color: #1d1d1b;
   margin-bottom: 1.27px;
+  margin-top: 21px;
 `;
 
 export const ProfileContactsHeading = styled.h2`
   font-size: 14.2426px;
   line-height: 160.3%;
   color: #747779;
+  margin-bottom: 19px;
 `;
