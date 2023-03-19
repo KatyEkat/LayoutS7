@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const HeaderBlock = styled.div`
-height: 64.09px;
+  height: 64.09px;
 `;
 
 export const HeaderArrows = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  cursor: pointer;
 `;
 
 export const HeaderContentText = styled.div`
@@ -33,3 +34,5 @@ export const H1 = styled.h1`
   margin-left: 26.83px;
   margin-right: 26.83px;
 `;
+
+export const LinkArrow = styled.a``;

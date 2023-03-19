@@ -7,8 +7,13 @@ function Header() {
   return (
     <S.HeaderBlock>
       <S.HeaderArrows>
-        <S.HeaderArrow src={ArrowLeft} alt="стрелка влево" />
-        <S.HeaderArrow src={ArrowRight} alt="стрелка влево" />
+        <S.LinkArrow href="/buddy">
+          <S.HeaderArrow src={ArrowLeft} alt="стрелка влево" />
+        </S.LinkArrow>
+
+        <S.LinkArrow href="/about">
+          <S.HeaderArrow src={ArrowRight} alt="стрелка влево" />
+        </S.LinkArrow>
       </S.HeaderArrows>
 
       <S.HeaderContentText>

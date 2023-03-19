@@ -10,8 +10,8 @@ export const ProfileContactsLeft = styled.div`
 `;
 
 export const ProfilePhotoWithButtons = styled.div`
-
-`
+  position: relative;
+`;
 
 export const ProfileContactsPhoto = styled.img`
   width: 384.44px;
@@ -24,6 +24,7 @@ export const ProfileContactsButton = styled.button`
   background: #c4d600;
   border-radius: 7.12131px;
   transition: background-color 0.2s ease-in;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
   border: none;
   cursor: pointer;
   margin-top: 5px;
@@ -35,7 +36,6 @@ export const ProfileContactsButton = styled.button`
   color: #ffffff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 `;
-
 
 export const ProfileContactsRight = styled.div`
   width: 340px;

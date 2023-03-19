@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const ProfileContactsCircleDotsContainer = styled.div``;
+
+export const ProfileContactsCircleButtonsContainer = styled.div``;
+
 export const ProfileContactsCircleDots = styled.button`
   width: 7.12px;
   height: 7.12px;
@@ -34,6 +38,19 @@ export const ProfileContactsCircle = styled.div`
   position: absolute;
   right: 14.28px;
   left: 21.25px;
+  bottom: 20px;
   display: flex;
   justify-content: space-between;
+`;
+
+export const ProfileContactsCircleArrowRight = styled.img`
+  position: relative;
+  left: 298px;
+  top: -9px;
+`;
+
+export const ProfileContactsCircleArrowLeft = styled.img`
+  position: relative;
+  left: -333px;
+  top: -9px;
 `;

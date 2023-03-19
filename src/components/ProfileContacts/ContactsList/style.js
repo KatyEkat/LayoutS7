@@ -15,4 +15,5 @@ export const ProfileContactsContacts = styled.img`
   width: 19.58px;
   height: 19.58px;
   margin-right: 17.52px;
+  margin-bottom: 19px;
 `;
