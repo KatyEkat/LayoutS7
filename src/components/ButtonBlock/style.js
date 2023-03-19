@@ -3,14 +3,12 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 265.88px;
   height: 73.48px;
-
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   text-align: center;
   align-items: center;
   gap: 9px;
-
   background: #fafafa;
   border-radius: 12.1685px;
   cursor: pointer;
@@ -26,6 +24,7 @@ export const TextDark = styled.div`
   line-height: 12px;
   color: #000000;
 `;
+
 export const Text = styled.div`
   font-family: "Nimbus Sans L";
   font-style: normal;
